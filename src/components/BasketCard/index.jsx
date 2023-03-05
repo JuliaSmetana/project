@@ -24,7 +24,7 @@ export default function BasketCard({ id, title, image, price, discont_price, cou
   return (
     <div>
     <div className={s.basket}>
-      <img src={`http://localhost:3333/${image}`} alt={ title } />
+      <img src={`https://project-onh2.onrender.com/${image}`} alt={ title } />
       <div className={s.name_incr}>
       <p>{ title }</p>
       <div className={s.triggers}>

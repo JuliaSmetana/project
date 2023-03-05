@@ -20,7 +20,7 @@ export default function ProductsCard({ image, id, title, price, discont_price })
      
       <div>
         <Link to={product_descr_url}>
-          <img src={`http://localhost:3333/${image}`} alt={ title } />
+          <img src={`https://project-onh2.onrender.com/${image}`} alt={ title } />
         </Link>
         <Link to='/basket'>
           <button onClick={add_to_basket}>Add to cart</button>

@@ -13,7 +13,7 @@ export default function ProductCard({ id, title, image, price, discont_price, de
 
   return (
     <div className={s.product_card}>
-         <img src={`http://localhost:3333/${image}`} alt={ title } />
+         <img src={`https://project-onh2.onrender.com/${image}`} alt={ title } />
          <div className={s.product_info}>
          <div className={s.price}>
          <p className={s.discount_price}>{ discont_price }$</p>
