@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.home_page {
+    height: 788px;
+    width: 1350px;
+    background-color:rgba(23, 113, 101, 1);
+    position: absolute;
+    background-size: contain;
+    margin-left: -90px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.home_page h1{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    line-height: 78px;
+    color: rgb(255, 255, 255);
+    height: 200px;
+    left: 8%;
+    right: 17.27%;
+    font-style: normal;
+    width: 600px;
+    margin-bottom: 40px;
+
+    
+}
+.line {
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    background: #A4D6CF; 
+}
+
+.home_page img{
+   height: 100%;
+   margin-top: 100px;
+   margin-right: 120px;
+}
+.text {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+   
+}
+.text p{
+    margin-left: 80px;
+    color: #A4D6CF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #A4D6CF;
+
+}
+
+.utp{
+    margin: 30px;
+    
+}
+.home_page button{
+    box-sizing: border-box;
+    height: 44px;
+    background: #FFFFFF;
+    width: 200px;
+    border: 1px solid green;
+    color: #177165;
+}
+
+.home_page button:hover{
+    box-shadow: #08443b 5px 5px 15px;
+    background: #085348;
+    border: 1px solid white;
+    color: #FFFFFF;
+}
+
+.categories_page {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -100px;
+    height: 450px;
+    align-items: center; 
+    margin-top: -50px;
+    
+}
+.categories_home_page h1{
+    color: #177165;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.categories_home_page{
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.categories_home_page button{
+    box-sizing: border-box;
+    height: 44px;
+    background:#e9f7f5;
+    width: 200px;
+    border: 1px solid #15665ba9;
+    color: #177165;
+    margin-top: 5px;
+    
+}
+.categories_home_page button:hover{
+    box-shadow: 6px 6px 20px #1e8f80a9;
+    color: #d2f8f2;
+    background-color: #085348;
+}
+
+.post_page{
+    background-image: url('../../components/PostForm/img/PFLANZ\ \(3\).png');
+    width: 1357px;
+    height: 350px;
+    margin-left: -97px;
+    
+    
+}
+.home_page_sale{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+}
+
+.sale_paragraph{
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.sale_paragraph h1{
+    color: #177165;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+}
+.sale_paragraph button{
+    box-sizing: border-box;
+    height: 44px;
+    background:#e9f7f5;
+    width: 200px;
+    border: 1px solid #15665ba9;
+    color: #177165;
+    margin-right: 80px;
+    margin-top: 5px;
+}
+.sale_paragraph button:hover {
+    box-shadow: 6px 6px 20px #1e8f80a9;
+    color: #d2f8f2;
+    background-color: #085348;
+}

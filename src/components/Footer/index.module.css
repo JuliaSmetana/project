@@ -1,0 +1,49 @@
+.footer {
+background-color:#23a191;
+color: aliceblue;
+font-size: 15px;
+font-weight: 400;
+height: 300px;
+display: flex;
+justify-content: space-between;
+}
+.footer div {
+
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 50px;
+
+ 
+ 
+}
+.footer h1{
+    color: #baf3eb;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.massengers{
+    display: flex;
+    width: 150px;
+    height: 20px;
+    margin-bottom: -50px;
+}
+.whatsapp{
+    margin-left: 10px;
+    
+}
+.karta img{
+    width: 390px;
+    height: 220px;
+    margin-left: 800px;
+    margin-top: -180px;
+    
+}
+
+
+
+
+
+

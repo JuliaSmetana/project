@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+  .nav_menu {
+    background-color: #E1F4F2;
+    display: flex;
+    justify-content: center;
+    gap: 100px ;
+    padding: 18px 0;
+    align-items: center;
+    
+   
+
+   
+  }
+  
+  .nav_menu a {
+    font-family: 'Playfair Display';
+    text-decoration: none;
+    color: #23a191;
+    font-size: 16px;
+  }
+  .nav_menu a:hover{
+    color: #177165;
+    text-decoration: underline 2px;
+
+  }
+  .nav_menu img{
+    height: 50px;
+    width: 52px;
+    align-items: center;
+    margin-right: 350px;
+    
+  }
+

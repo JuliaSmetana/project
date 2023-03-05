@@ -1,0 +1,23 @@
+.categories_card {
+    padding: 20px;
+    color: rgb(27, 27, 27);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    position: relative;
+    font-size: 20px;
+    
+   
+   
+    
+}
+
+.categories_card img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+.categories_card:hover{
+    box-shadow: 8px 8px 25px #1e8f80a9;
+}

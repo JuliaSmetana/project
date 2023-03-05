@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.basket_page{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.basket_page_card{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.order_details{
+    background-color:  #085348dc;
+    margin-left: 800px;
+    width: 400px; 
+    height: 300px;
+    margin-top: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center
+  
+}
+.order_details form{
+    height: 100px;
+    align-items: center;
+    margin-left: 65px;
+
+    
+}
+.order_details input{
+    height: 40px;
+    width: 273px;
+    background-color: azure;
+    border: rgba(255, 255, 255, 0);
+    outline: 0;
+    margin-top: 10px;
+   
+}
+
+.order_details button{
+    box-sizing: border-box;
+    height: 44px;
+    background:#e9f7f5;
+    width: 200px;
+    border: 1px solid #15665ba9;
+    color: #177165;
+    margin-top: 18px;
+   
+    margin-left: 35px;
+}
+.order_details button:hover{
+    color: #d2f8f2;
+    background-color: #085348;
+    border-color: #b5f8ee;
+}
+
+.error_massage{
+    font-size: 10px;
+    color: #d2f8f2;
+  margin-top: -50px;
+  margin-left: 64px;
+  text-decoration: underline red;
+}
+.order_details h2{
+    width: 300px;
+    font-size: 32px;
+
+}
+.order_details .number_text{
+    color: #b5f8ee;
+    margin-bottom: -10px;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-left: 64px;
+}
+
+.total {
+   color: rgb(251, 253, 255);
+   font-size: 25px;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+h1 {
+    color: #177165;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 72px;
+    margin: 53px auto;
+}
