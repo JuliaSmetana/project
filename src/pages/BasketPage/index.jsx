@@ -14,7 +14,7 @@ export default function BasketPage() {
 
   const clear_basket = () => dispatch(clearBasket());
 
-  const total = basket.reduce((prev, {price, count}) => prev + price * count, 0);
+  const total = basket.reduce((prev, {discont_price, count}) => prev + discont_price * count, 0);
   //console.log(basket)
 
   
