@@ -8,7 +8,7 @@ import ProductsPage from './pages/ProductsPage';
 import Footer from './components/Footer';
 import ProductDescrPage from './pages/ProductDescrPage';
 import SalePage from './pages/SalePage';
-import PostForm from './components/PostForm';
+
 
 
 

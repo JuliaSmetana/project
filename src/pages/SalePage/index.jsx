@@ -18,7 +18,7 @@ export default function SalePage() {
   
 
   return (
-    <div className={s.sale} id='/sale'>
+    <div className={s.sale}>
       <h1>Sale</h1>
       <div className={s.sale_cards}>
       {
