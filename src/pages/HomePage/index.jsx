@@ -64,7 +64,7 @@ export default function HomePage() {
       <div>
       
 
-      <div className={s.categories_home_page}>
+      <div className={s.categories_home_page} id='/categories'>
            <h1>Categories</h1>
            <Link to='/categories'>
            <button>All categories</button>
@@ -86,7 +86,7 @@ export default function HomePage() {
     <div className={s.post_page}>
        <PostForm/>
     </div>
-    <div className={s.sale_paragraph}>
+    <div className={s.sale_paragraph} id='/sale'>
     <h1>Sale</h1>
     <Link to='/sale'>
     <button>More</button>

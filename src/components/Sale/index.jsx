@@ -12,7 +12,7 @@ export default function Sale({ image, id, title, price, discont_price }) {
   const dispatch = useDispatch();
   const add_to_basket = () => dispatch(loadBasket({ id, title, image, price,  discont_price }))
   return (
-        <div className={s.sale_card}>
+        <div className={s.sale_card} >
 
         <Link to={product_descr_url}>
           <img src={`https://project-onh2.onrender.com/${image}`} alt={ title } />
