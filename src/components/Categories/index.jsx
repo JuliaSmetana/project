@@ -11,7 +11,7 @@ export default function CategoriesCard( { id, image, title, category }) {
   
     return (
        
-      <Link className={s.categories} to={`/categories/${id}`} id='/catalog'>
+      <Link className={s.categories} to={`/categories/${id}`}>
          
          <img src={`https://project-onh2.onrender.com/${image}`} alt={ title } />
          <p>{ category }</p> 

@@ -7,16 +7,23 @@ export default function PostForm() {
    
 
     const { register, handleSubmit, formState: { errors } } = useForm();
+    
    
    const submit = data => console.log(data);
+  
+   
   
    const mobileRegister = register('mobile', {
     required: '*Enter phone number',
     pattern: {
         value: /^(\+\d{1,3}[- ]?)?\d{10}$/,
         message: '*Enter the country code in the format +xx and a number of at least 10 digits' 
-    }
+       
+      }
+   
    });
+
+  
    
   return (
      <div className={s.order} id='/coupon'>
