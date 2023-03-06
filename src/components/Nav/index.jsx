@@ -17,14 +17,13 @@ export default function Nav() {
         <a href="/categories">Catalog</a>
 
        
-        <Link to="/coupon" spy={true} smooth={true} offset={50} duration={500}  style={{cursor: 'pointer'}}>
-        <a href="/coupon">Coupon </a></Link>
+        <Link to="/coupon" spy={true} smooth={true} offset={50} duration={500}  style={{cursor: 'pointer'}}>Coupon</Link>
        
         <a href="/sale">Sale</a>
 
-        <a href="/contact">
+        
         <Link to="/contact" spy={true} smooth={true} offset={50} duration={500}  style={{cursor: 'pointer'}}>Contact</Link>
-        </a>
+        
        
         <a href='/basket'>Basket</a>
 
