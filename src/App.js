@@ -8,6 +8,7 @@ import ProductsPage from './pages/ProductsPage';
 import Footer from './components/Footer';
 import ProductDescrPage from './pages/ProductDescrPage';
 import SalePage from './pages/SalePage';
+import PostForm from './components/PostForm';
 
 
 
@@ -26,7 +27,8 @@ function App() {
          <Route path='categories/:category' element={<ProductsPage />}/>
          <Route path='products/:id' element={<ProductDescrPage />}/>
          <Route path='/sale' element={<SalePage />}/>
-         <Route path='/sale' element={<SalePage />}/>
+        
+         
          
        </Route>
      </Routes>
