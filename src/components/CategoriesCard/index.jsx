@@ -5,7 +5,7 @@ import s from './index.module.css'
 export default function CategoriesCard( { id, image, title, category }) {
 
 
-  //const category_url = `/categories/${id}`
+
   
     return (
        

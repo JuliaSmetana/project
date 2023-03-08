@@ -29,7 +29,7 @@ export default function BasketPage() {
        message: '*Enter the country code in the format +xx and a number of at least 10 digits' 
    }
   });
-//<button onClick={clear_basket}>Clear cart</button>
+
   return (
     <div>
     <h1>Shopping Card</h1>
@@ -62,7 +62,7 @@ export default function BasketPage() {
         </div>
       </div>
       </div>
-
+      <button onClick={clear_basket} className={s.clear_button}>Clear cart</button>
     </div>
     
   )

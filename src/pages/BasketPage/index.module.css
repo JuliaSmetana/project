@@ -90,3 +90,16 @@ h1 {
     margin-bottom: 72px;
     margin: 53px auto;
 }
+.clear_button{
+    box-sizing: border-box;
+    height: 44px;
+    background:#15665b;
+    width: 200px;
+    border: 1px solid #15665ba9;
+    color: #e8faf8;
+    margin-left: 900px;
+    margin-top: 20px;
+}
+.clear_button:hover{
+    box-shadow: 8px 8px 25px #1e8f80a9;
+}

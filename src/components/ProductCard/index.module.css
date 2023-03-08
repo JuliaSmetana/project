@@ -5,6 +5,7 @@
     width: 550px;
     height: 350px;
     object-fit: contain;
+    
 }
 .price {
     display: flex;
@@ -21,6 +22,7 @@
     border: 1px solid #15665ba9;
     color: #177165;
     margin-top: 30px;
+   
 }
 .product_card button:hover {
     background:#177165;
